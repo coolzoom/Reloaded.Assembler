@@ -6,13 +6,13 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
-using Reloaded.Assembler.Definitions;
+using ReloadedASM.Assembler.Definitions;
 using Reloaded.Memory.Buffers;
 using Reloaded.Memory.Sources;
-using static Reloaded.Assembler.Kernel32.Kernel32;
+using static ReloadedASM.Assembler.Kernel32.Kernel32;
 using static Reloaded.Memory.Kernel32.Kernel32;
 
-namespace Reloaded.Assembler
+namespace ReloadedASM.Assembler
 {
     /// <summary>
     /// Assembler class allows you to assemble X86 and X64 mnemonics using FASM.
@@ -27,7 +27,7 @@ namespace Reloaded.Assembler
         private int     _resultSize;
 
         private static readonly MemoryBufferHelper _bufferHelper;
-        private static readonly Memory.Sources.Memory _processMemory;
+        private static readonly Reloaded.Memory.Sources.Memory _processMemory;
         
         private readonly FasmDelegates.fasm_Assemble   _assembleFunction;
         private readonly FasmDelegates.fasm_GetVersion _getVersionFunction;
@@ -35,7 +35,7 @@ namespace Reloaded.Assembler
         /* Create the common static members. */
         static Assembler()
         {
-            _processMemory = new Memory.Sources.Memory();
+            _processMemory = new Reloaded.Memory.Sources.Memory();
             _bufferHelper = new MemoryBufferHelper(Process.GetCurrentProcess());
         }
 

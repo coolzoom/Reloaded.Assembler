@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Reloaded.Assembler.Definitions
+namespace ReloadedASM.Assembler.Definitions
 {
     /// <summary/>
     [StructLayout(LayoutKind.Explicit)]

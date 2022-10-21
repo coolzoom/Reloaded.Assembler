@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Reloaded.Assembler.Definitions
+namespace ReloadedASM.Assembler.Definitions
 {
     /// <summary/>
     public class FasmException : Exception

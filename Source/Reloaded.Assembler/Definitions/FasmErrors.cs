@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Reloaded.Assembler.Definitions
+namespace ReloadedASM.Assembler.Definitions
 {
     /// <summary>
     /// Lists all FASM Assembler Errors

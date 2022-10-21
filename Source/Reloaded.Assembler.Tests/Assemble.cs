@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
-using Reloaded.Assembler.Definitions;
+using ReloadedASM.Assembler.Definitions;
 using Reloaded.Memory.Buffers.Internal.Kernel32;
 using Reloaded.Memory.Buffers.Internal.Utilities;
 using Xunit;
 
-namespace Reloaded.Assembler.Tests
+namespace ReloadedASM.Assembler.Tests
 {
     public class Assemble
     {

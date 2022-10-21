@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Reloaded.Assembler
+namespace ReloadedASM.Assembler
 {
     /// <summary/>
     [ExcludeFromCodeCoverage]

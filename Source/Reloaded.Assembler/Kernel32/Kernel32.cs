@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 
-namespace Reloaded.Assembler.Kernel32
+namespace ReloadedASM.Assembler.Kernel32
 {
     /// <summary/>
     public class Kernel32

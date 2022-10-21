@@ -1,4 +1,4 @@
-﻿namespace Reloaded.Assembler.Definitions
+﻿namespace ReloadedASM.Assembler.Definitions
 {
     /// <summary/>
     public enum FasmResult : int

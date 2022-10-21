@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
-using Reloaded.Assembler.Definitions;
+using ReloadedASM.Assembler.Definitions;
 
-namespace Reloaded.Assembler
+namespace ReloadedASM.Assembler
 {
     /// <summary/>
     public class FasmDelegates
